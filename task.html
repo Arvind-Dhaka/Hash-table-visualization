@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hash Table Visualization</title>
+    <link rel="stylesheet" href="./task.css">
+</head>
+<body>
+
+    <h1>Hash Table Visualization</h1>
+
+    <div id="controls">
+        <label for="value-input">Value:</label>
+        <input type="text" id="value-input" placeholder="Enter a value">
+        <button id="insert-btn">Insert</button>
+        <button id="reset-btn">Reset</button>
+        <div id="mode-selection">
+            <strong>Mode:</strong>
+            <label>
+                <input type="radio" name="mode" value="chaining" checked> Chaining
+            </label>
+            <label>
+                <input type="radio" name="mode" value="open-addressing"> Open Addressing
+            </label>
+        </div>
+    </div>
+
+    <div id="hash-table-container">
+        </div>
+
+    <div id="log-area">
+        <p class="log-info">Select a mode and insert a value to begin.</p>
+    </div>
+
+    <script src="./task.js"></script>
+
+</body>
+</html>
